@@ -1,0 +1,33 @@
+.jumbotron {
+    background-image: url(../images/curtain.jpg);
+   
+}
+
+h2 {
+
+    font-weight: bolder;
+    color: rgb(22, 2, 3);
+    font-size: 70px;
+    text-align: center;
+}
+
+#message {
+
+    color: white;
+}
+
+#questions{
+
+    color: rgb(168, 17, 37);
+}
+
+#totals{
+
+    color: rgb(168, 17, 37);
+}
+
+
+
+li {
+    list-style-type: none;
+}
