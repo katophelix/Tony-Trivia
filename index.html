@@ -23,104 +23,107 @@
     <!-- Jumbotron for Title -->
     <div class="jumbotron">
         <h1 id="message" class="text-center">Tony Trivia Game</h1>
+
         <h2 class="text-center">
             <h2>
-                <input  class="btn btn-primary center-block" type="button" value="Start" id="start-button">
+                <input class="btn btn-primary center-block" type="button" value="Start" id="start-button">
+            </h2>
+
+            <h2>
+                <input class="btn btn-primary center-block" type="button" value="Restart" id="restart-button">
             </h2>
     </div>
 
-<div class="container">
-    <!-- <div class="row">
+    <div class="container">
+        <!-- <div class="row">
         <div class="col-md-12"> -->
-    <div id="show-number"></div>
-<!-- </div>
+        <div id="show-number"></div>
+        <!-- </div>
 </div> -->
 
-<div id="questions">
- 
-    <h3>Whose profile is pictured on one side of the Tony Award itself?</h3>
-    
-    Vera Allen: <input type="radio" name="answer1" id="myRadio" value="0">
+        <div id="questions">
 
-    Antoinette Perry: <input type="radio" name="answer1"  id="myRadio" value="1">
+            <h3>Whose profile is pictured on one side of the Tony Award itself?</h3>
 
-    Charlotte St. Martin: <input type="radio"  name="answer1" id="myRadio" value="0">
-
-    Sondra Gilman: <input type="radio"  name="answer1" id="myRadio" value="0">
-  
-
-<h3>What is pictured on the opposite side of the Tony award from the profile of the famous person?</h3>
-
-A stage scene with curtains: <input type="radio"  name="answer2" id="myRadio" value="0">
-
-A script: <input type="radio" name="answer2" id="myRadio" value="0">
-
-A musical note: <input type="radio" name="answer2" id="myRadio" value="0">
-
-The masks of comedy and tragedy: <input type="radio" name="answer2" id="myRadio" value="1">
+            Vera Allen:
+            <input type="radio" name="answer1" id="myRadio" value="0"> Antoinette Perry:
+            <input type="radio" name="answer1" id="myRadio" value="1"> Charlotte St. Martin:
+            <input type="radio" name="answer1" id="myRadio" value="0"> Sondra Gilman:
+            <input type="radio" name="answer1" id="myRadio" value="0">
 
 
-<h3>When the category, "Best Musical" made its first appearance in 1949, what was the name of the performance that took the very first award?</h3>
+            <h3>What is pictured on the opposite side of the Tony award from the profile of the famous person?</h3>
 
-South Pacific: <input type="radio" name="answer3" id="myRadio" value="0">
-
-Guys and Dolls: <input type="radio" name="answer3" id="myRadio" value="0">
-
-Kiss Me Kate: <input type="radio" name="answer3" id="myRadio" value="1">
-
-The King and I: <input type="radio" name="answer3" id="myRadio" value="0">
+            A stage scene with curtains:
+            <input type="radio" name="answer2" id="myRadio" value="0"> A script:
+            <input type="radio" name="answer2" id="myRadio" value="0"> A musical note:
+            <input type="radio" name="answer2" id="myRadio" value="0"> The masks of comedy and tragedy:
+            <input type="radio" name="answer2" id="myRadio" value="1">
 
 
-<h3> Which famous Andrew Lloyd-Webber musical, which won 10 Tony Awards in 1988 alone, is one of the longest running musicals on Broadway?</h3>
+            <h3>When the category, "Best Musical" made its first appearance in 1949, what was the name of the performance that
+                took the very first award?</h3>
 
-Sunset Boulevard: <input type="radio" name="answer4" id="myRadio" value="0">
-
-Cats: <input type="radio" name="answer4" id="myRadio" value="0">
-
-Phantom of the Opera: <input type="radio" name="answer4" id="myRadio" value="1">
-
-Evita: <input type="radio" name="answer4" id="myRadio" value="0">
+            South Pacific:
+            <input type="radio" name="answer3" id="myRadio" value="0"> Guys and Dolls:
+            <input type="radio" name="answer3" id="myRadio" value="0"> Kiss Me Kate:
+            <input type="radio" name="answer3" id="myRadio" value="1"> The King and I:
+            <input type="radio" name="answer3" id="myRadio" value="0">
 
 
-<h3>Who was the first person to host the Tony Awards five times?</h3>
+            <h3> Which famous Andrew Lloyd-Webber musical, which won 10 Tony Awards in 1988 alone, is one of the longest running
+                musicals on Broadway?</h3>
 
-Angela Lansbury: <input type="radio" name="answer5" id="myRadio" value="1">
+            Sunset Boulevard:
+            <input type="radio" name="answer4" id="myRadio" value="0"> Cats:
+            <input type="radio" name="answer4" id="myRadio" value="0"> Phantom of the Opera:
+            <input type="radio" name="answer4" id="myRadio" value="1"> Evita:
+            <input type="radio" name="answer4" id="myRadio" value="0">
 
-Julie Andrews: <input type="radio" name="answer5" id="myRadio" value="0">
 
-Rosie O'Donnell: <input type="radio" name="answer5" id="myRadio" value="0">
+            <h3>Who was the first person to host the Tony Awards five times?</h3>
 
-Hugh Jackman: <input type="radio" name="answer5" id="myRadio" value="0">
+            Angela Lansbury:
+            <input type="radio" name="answer5" id="myRadio" value="1"> Julie Andrews:
+            <input type="radio" name="answer5" id="myRadio" value="0"> Rosie O'Donnell:
+            <input type="radio" name="answer5" id="myRadio" value="0"> Hugh Jackman:
+            <input type="radio" name="answer5" id="myRadio" value="0">
 
 
 
-<br>
+            <br>
 
-<input  class="btn btn-primary center-block" type="button" id="game-over" value="Submit"/>
-
-
-</div>
-
-<!-- hide for first page - google clicked or unclicked for un answered -->
-
-<div id="totals">
-<ul class="text-center">
-    <h3>
-    <li>Correct Answers:<div id="correct-counter"></div></li>
-    <li>Incorrect Answers:<div id="incorrect-counter"></div></li>
-    <li>Unanswered:<div id="unanswered-counter"></div></li>
-</h3>
-
-</ul>
-
-</div>
-
-    
-</div>
+            <input class="btn btn-primary center-block" type="button" id="game-over" value="Submit" />
 
 
+        </div>
 
-        <script type="text/javascript" src="assets/javascript/app.js"></script>
+        <!-- hide for first page - google clicked or unclicked for un answered -->
+
+        <div id="totals">
+            <ul class="text-center">
+                <h3>
+                    <li>Correct Answers:
+                        <div id="correct-counter"></div>
+                    </li>
+                    <li>Incorrect Answers:
+                        <div id="incorrect-counter"></div>
+                    </li>
+                    <li>Unanswered:
+                        <div id="unanswered-counter"></div>
+                    </li>
+                </h3>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 
 </html>
