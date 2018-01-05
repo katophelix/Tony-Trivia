@@ -3,9 +3,9 @@ $("#totals").hide();
 $("#questions").hide();
 $("#restart-button").hide();
 
-function html() {
-  window.location.href = "index2.html";
-}
+// function html() {
+//   window.location.href = "index2.html";
+// }
 
 var number = 60;
 
@@ -20,7 +20,7 @@ function run() {
   $("#questions").show();
   $("#message").html("Answer before time runs out!");
   $("#start-button").hide();
- 
+
 }
 
 //  The decrement function.
@@ -56,9 +56,7 @@ function stop() {
   $("#message").html("Game Over");
 
 
-  var unanswered = 5-$('input[type="radio"]:checked').length;
-  console.log(unanswered);
-  $("#unanswered-counter").html(unanswered);
+
 }
 
 //  Execute the run function.
@@ -80,12 +78,14 @@ $("input").change(function () {
   var total2 = 5 - total;
   $("#incorrect-counter").html(total2);
 
+  
+
   // var total3 = (3-(total + total2));
   // $("#unanswered-counter").html(total3);
   // var total3 = (total + total2)-5;
 
- 
-  
+
+
 });
 // var total3 = 0;
 
