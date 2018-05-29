@@ -2,9 +2,9 @@
 
 ## Tony Trivia
 
-## This is atimed trivai game asll about the Tony Awards!
+## This is a timed trivai game all about the Tony Awards!
 
-
+![Video](https://user-images.githubusercontent.com/32774089/40662520-8e2b8284-6324-11e8-8185-5e5e5a0da03e.gif)
 
 
 ![Screen Shot](assets/images/screen.gif)
