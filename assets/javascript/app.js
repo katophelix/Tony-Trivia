@@ -7,7 +7,7 @@ $("#restart-button").hide();
 //   window.location.href = "index2.html";
 // }
 
-var number = 60;
+var number = 90;
 
 //  Variable that will hold our interval ID when we execute
 //  the "run" function
